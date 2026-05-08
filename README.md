@@ -2,11 +2,13 @@
 
 Projeto desenvolvido para a disciplina de **Arquitetura e Projeto de Software**.
 
-## Descrição
-
 Este projeto demonstra a implementação do padrão estrutural **Composite**, que tem como objetivo compor objetos em estruturas de árvore para representar hierarquias parte-todo, permitindo que clientes tratem objetos individuais e composições de objetos de maneira uniforme.
 
 O padrão foi aplicado para modelar o **cardápio de um restaurante**. Um cardápio pode conter categorias, e cada categoria pode conter pratos ou outras categorias, formando uma árvore de conteúdo tratada de forma uniforme via `getConteudo()`.
+
+## Diagrama de Classes:
+
+<img width="1179" height="409" alt="Image" src="https://github.com/user-attachments/assets/ddd7225b-43c4-4de4-adf5-85e1db948246" />
 
 ## Estrutura
 
